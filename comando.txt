@@ -1,0 +1,47 @@
+COMANDOS
+
+RODANDO O SERVIDOR
+
+node app.js
+
+COMANDO PARA GERAR INFORMAÇÕES FAKE
+
+node gen_products.js
+node gen_people.js
+
+COMANDO ANGULAR
+
+CRIANDO O PROJETO
+ng new loginapp
+
+SE CRIAR O PROJETO E NAO CRIAR O APP-ROUTING EXECUTE O COMANDO ABAIXO
+ng generate module app-routing --flat --module=app
+
+ADICIONANDO ANGULAR MATERIAL
+ng add @angular/material
+
+ADICIONANDO FLEX LAYOUT
+npm install --save @angular/flex-layout
+
+ADICIONANDO O MODULO MAIN
+ng g m -m app Main --routing
+
+ADICIONANDO COMPONENTES
+ng g c main/people
+ng g c main/products
+
+
+ADICIONANDO UMA INTERFACE
+ng g i main/person
+ng g i main/product
+
+ADICIONANDO UM SERVICO
+ng g s main/main
+
+ADICIONANDO MODULO AUTH 
+ng g m -m --routing Auth
+
+CRIANDO COMPONENTE DE LOGIN
+ng g c auth/login
+
+
